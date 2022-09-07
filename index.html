@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodDec</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">    
+</head>
+
+<body>
+    <main>
+         <div>
+        <h1 class="tituloPagina">CodDec</h1>
+    </div>
+
+    <div id="caixa1">
+        <div id="caixa1-2">
+            <textarea name="textBox" id="textBox" placeholder="Digite o seu texto sem letras maiusculas ou acentos" style="resize: none;"></textarea>
+            <button id="btnCod" required>Codificar</button>
+            <button id="btnDec" required>Decodificador</button>
+            <div class="alert-container">    
+                <p class="alert-description"> Apenas letras minúsculas e sem acento.</p>
+            </div>
+        </div>
+    </div>
+    <div id="caixa2">
+        <div id="caixa2-2">
+            <textarea name="resultBox" id="resultBox" placeholder="Veja seu resultado" readonly style="resize: none;"></textarea>
+            <button id="btnCopy">Copiar</button>
+            <div id="hideResult"></div>
+        </div>
+    </div>
+
+    <div id="boxrede">
+        <a href="https://www.linkedin.com/in/antony-khamis-a1a630246/" target="_blank"><img id="imglin" src="linkedIn.png" alt=""></a>
+        <a href="https://github.com/lostvanny" target="_blank"><img id="imggit" src="github.png" alt=""></a>
+    </div>
+    </main>
+   
+</body>
+
+</html>
